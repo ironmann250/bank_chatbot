@@ -1,0 +1,197 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "good morning", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "good evening", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "how are you", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "i need help", 
+        "intent": "hi"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "quit", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "see you", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "thanks for the service", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leave", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "register", 
+        "intent": "registration"
+      }, 
+      {
+        "text": "registration", 
+        "intent": "registration"
+      }, 
+      {
+        "text": "i want a new account", 
+        "intent": "registration"
+      }, 
+      {
+        "text": "new here", 
+        "intent": "registration"
+      }, 
+      {
+        "text": "open an account", 
+        "intent": "registration"
+      }, 
+      {
+        "text": "login", 
+        "intent": "login"
+      }, 
+      {
+        "text": "access my account", 
+        "intent": "login"
+      }, 
+      {
+        "text": "see my account", 
+        "intent": "login"
+      }, 
+      {
+        "text": "use my account", 
+        "intent": "login"
+      }, 
+      {
+        "text": "withdraw", 
+        "intent": "withdraw"
+      }, 
+      {
+        "text": "get money", 
+        "intent": "withdraw"
+      }, 
+      {
+        "text": "get cash", 
+        "intent": "withdraw"
+      }, 
+      {
+        "text": "use my money", 
+        "intent": "withdraw"
+      }, 
+      {
+        "text": "give me money", 
+        "intent": "withdraw"
+      }, 
+      {
+        "text": "give me cash", 
+        "intent": "withdraw"
+      }, 
+      {
+        "text": "deposit", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "saving", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "save", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "save money", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "save cash", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "put", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "put money", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "store", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "store in bank", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "put cash", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "store cash", 
+        "intent": "deposit"
+      }, 
+      {
+        "text": "how much do i have", 
+        "intent": "checkbalance"
+      }, 
+      {
+        "text": "how much remains", 
+        "intent": "checkbalance"
+      }, 
+      {
+        "text": "show me my balance", 
+        "intent": "checkbalance"
+      }, 
+      {
+        "text": "my balance", 
+        "intent": "checkbalance"
+      }, 
+      {
+        "text": "my account value", 
+        "intent": "checkbalance"
+      }, 
+      {
+        "text": "how much in my account", 
+        "intent": "checkbalance"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": [], 
+    "lookup_tables": []
+  }
+}

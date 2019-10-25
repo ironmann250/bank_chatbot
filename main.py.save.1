@@ -1,0 +1,13 @@
+# input loop
+# get intent
+# exec func
+# funcs : hi, bye, login, register, get money, put money
+# user db (name, [id], amount)
+from rasa_nlu.model import Interpreter
+import json, shelve
+db=shelve.open('database.db')
+while (True):
+	interpreter = Interpreter.load("./models/current/nlu")
+	message = "let's see some italian restaurants"
+	result = interpreter.parse(message)
+	print(json.dumps(result, indent=2))
