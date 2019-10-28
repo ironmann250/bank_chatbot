@@ -1,2 +1,2 @@
-model_checkpoint_path: "/root/rasademo/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "/root/rasademo/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "C:\\Users\\hp\\Desktop\\bank_chatbot-master\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\hp\\Desktop\\bank_chatbot-master\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

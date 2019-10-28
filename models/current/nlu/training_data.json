@@ -2,196 +2,200 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "hey", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "hey"
+      },
       {
-        "text": "hello", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "hello"
+      },
       {
-        "text": "hi", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "hi"
+      },
       {
-        "text": "good morning", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "good morning"
+      },
       {
-        "text": "good evening", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "good evening"
+      },
       {
-        "text": "hey there", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "hey there"
+      },
       {
-        "text": "how are you", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "how are you"
+      },
       {
-        "text": "i need help", 
-        "intent": "hi"
-      }, 
+        "intent": "hi",
+        "text": "i need help"
+      },
       {
-        "text": "bye", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "bye"
+      },
       {
-        "text": "farewell", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "farewell"
+      },
       {
-        "text": "quit", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "quit"
+      },
       {
-        "text": "goodbye", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "goodbye"
+      },
       {
-        "text": "see you", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "see you"
+      },
       {
-        "text": "thanks for the service", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "thanks for the service"
+      },
       {
-        "text": "leave", 
-        "intent": "bye"
-      }, 
+        "intent": "bye",
+        "text": "leave"
+      },
       {
-        "text": "register", 
-        "intent": "registration"
-      }, 
+        "intent": "registration",
+        "text": "register"
+      },
       {
-        "text": "registration", 
-        "intent": "registration"
-      }, 
+        "intent": "registration",
+        "text": "registration"
+      },
       {
-        "text": "i want a new account", 
-        "intent": "registration"
-      }, 
+        "intent": "registration",
+        "text": "i want a new account"
+      },
       {
-        "text": "new here", 
-        "intent": "registration"
-      }, 
+        "intent": "registration",
+        "text": "new here"
+      },
       {
-        "text": "open an account", 
-        "intent": "registration"
-      }, 
+        "intent": "registration",
+        "text": "open an account"
+      },
       {
-        "text": "login", 
-        "intent": "login"
-      }, 
+        "intent": "login",
+        "text": "login"
+      },
       {
-        "text": "access my account", 
-        "intent": "login"
-      }, 
+        "intent": "login",
+        "text": "access my account"
+      },
       {
-        "text": "see my account", 
-        "intent": "login"
-      }, 
+        "intent": "login",
+        "text": "see my account"
+      },
       {
-        "text": "use my account", 
-        "intent": "login"
-      }, 
+        "intent": "login",
+        "text": "use my account"
+      },
       {
-        "text": "withdraw", 
-        "intent": "withdraw"
-      }, 
+        "intent": "withdraw",
+        "text": "withdraw"
+      },
       {
-        "text": "get money", 
-        "intent": "withdraw"
-      }, 
+        "intent": "withdraw",
+        "text": "get money"
+      },
       {
-        "text": "get cash", 
-        "intent": "withdraw"
-      }, 
+        "intent": "withdraw",
+        "text": "get cash"
+      },
       {
-        "text": "use my money", 
-        "intent": "withdraw"
-      }, 
+        "intent": "withdraw",
+        "text": "use my money"
+      },
       {
-        "text": "give me money", 
-        "intent": "withdraw"
-      }, 
+        "intent": "withdraw",
+        "text": "give me money"
+      },
       {
-        "text": "give me cash", 
-        "intent": "withdraw"
-      }, 
+        "intent": "withdraw",
+        "text": "give me cash"
+      },
       {
-        "text": "deposit", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "deposit"
+      },
       {
-        "text": "saving", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "saving"
+      },
       {
-        "text": "save", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "save"
+      },
       {
-        "text": "save money", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "save money"
+      },
       {
-        "text": "save cash", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "save cash"
+      },
       {
-        "text": "put", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "put"
+      },
       {
-        "text": "put money", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "put money"
+      },
       {
-        "text": "store", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "store"
+      },
       {
-        "text": "store in bank", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "store in bank"
+      },
       {
-        "text": "put cash", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "put cash"
+      },
       {
-        "text": "store cash", 
-        "intent": "deposit"
-      }, 
+        "intent": "deposit",
+        "text": "store cash"
+      },
       {
-        "text": "how much do i have", 
-        "intent": "checkbalance"
-      }, 
+        "intent": "deposit",
+        "text": "keep"
+      },
       {
-        "text": "how much remains", 
-        "intent": "checkbalance"
-      }, 
+        "intent": "checkbalance",
+        "text": "how much do i have"
+      },
       {
-        "text": "show me my balance", 
-        "intent": "checkbalance"
-      }, 
+        "intent": "checkbalance",
+        "text": "how much remains"
+      },
       {
-        "text": "my balance", 
-        "intent": "checkbalance"
-      }, 
+        "intent": "checkbalance",
+        "text": "show me my balance"
+      },
       {
-        "text": "my account value", 
-        "intent": "checkbalance"
-      }, 
+        "intent": "checkbalance",
+        "text": "my balance"
+      },
       {
-        "text": "how much in my account", 
-        "intent": "checkbalance"
+        "intent": "checkbalance",
+        "text": "my account value"
+      },
+      {
+        "intent": "checkbalance",
+        "text": "how much in my account"
       }
-    ], 
-    "entity_synonyms": [], 
-    "regex_features": [], 
-    "lookup_tables": []
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
   }
 }

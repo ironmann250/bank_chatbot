@@ -50,6 +50,7 @@
 - store in bank
 - put cash
 - store cash
+- keep
 
 ##intent:checkbalance
 - how much do i have

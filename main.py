@@ -7,11 +7,12 @@
 #user db: name, id, amount
 #               training code
 #python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
+#C:\Users\hp\AppData\Local\Programs\Python\Python37\python.exe -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 #
 from rasa_nlu.model import Interpreter
-import json,shelve,random, string
+import json, shelve, random, string
 interpreter = Interpreter.load("./models/current/nlu")
-database=shelve.open('database.db', flag='c',writeback=True)
+database=shelve.open('database3.db', flag='c',writeback=True)
 cur_user=None
 
 def chatbot(msg):
@@ -37,9 +38,9 @@ def bye():
 def register():
     global cur_user
     global database
-    name=str(raw_input('name > '))
-    pwd=str(raw_input('password > '))
-    amount=float(raw_input('amount > '))
+    name=str(input('name > '))
+    pwd=str(input('password > '))
+    amount=float(input('amount > '))
     ID=id_generator()
     database[ID]={'name':name,'amount':amount,'pwd':pwd}
     database.sync()
@@ -49,8 +50,8 @@ def register():
 def login():
     global cur_user
     global database
-    ID=raw_input('ID > ')
-    pwd=raw_input('password > ')
+    ID=input('ID > ')
+    pwd=input('password > ')
     if ID in database.keys():
         if database[ID]['pwd']==pwd:
             cur_user=ID
@@ -72,8 +73,8 @@ def check_balance():
 def check_id():
     global cur_user
     global database
-    ID=raw_input('ID >')
-    pwd=raw_input('password >')
+    ID=input('ID >')
+    pwd=input('password >')
     if ID in database.keys():
         if database[ID]['pwd']==pwd:
             cur_user=ID
@@ -84,7 +85,7 @@ def deposit():
     global cur_user
     global database
     if check_id():
-        amount=float(raw_input('how much would you like to deposit?'))
+        amount=float(input('how much would you like to deposit?'))
         database[cur_user]['amount']+=amount
         database.sync()
         print ('your new balance is:',database[cur_user]['amount'])
@@ -95,19 +96,20 @@ def withdraw():
     global cur_user
     global database
     if check_id():
-        amount=float(raw_input('how much would you like to withdraw?'))
+        amount=float(input('how much would you like to withdraw?'))
         if database[cur_user]['amount']>amount:
             database[cur_user]['amount']-=amount
             database.sync()
             print ('your new balance is:',database[cur_user]['amount'])
         else:
-            print ('sorry your balance ( '+database[cur_user]['amount']+'$ ) is not enough')
+
+            print ('sorry your balance ( ',database[cur_user]['amount'],'$ ) is not enough')
     else:
         print ("you used the wrong password or ID")
 
         
 while True:
-    message = raw_input('sys> ')
+    message = input('sys> ')
     intent,confidence=chatbot(message)
     print (intent,confidence)
     #greet, bye, login, registration, withdrawing, depositing, check balance
